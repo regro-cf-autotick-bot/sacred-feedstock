@@ -1,5 +1,5 @@
 {% set name = "sacred" %}
-{% set version = "0.8.2" %}
+{% set version = "0.8.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sacred-{{ version }}.tar.gz
-  sha256: 98ef43cc93ce39c2243175fdd76973c8175834ae80b8d01c918cc243127b27ce
+  sha256: 7e2abc137efabad93e6385da88371f6818415f0a11192161508ddd880ab270d4
 
 build:
   number: 0
