@@ -1,5 +1,5 @@
 {% set name = "sacred" %}
-{% set version = "0.8.4" %}
+{% set version = "0.8.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sacred-{{ version }}.tar.gz
-  sha256: 7e2abc137efabad93e6385da88371f6818415f0a11192161508ddd880ab270d4
+  sha256: 1a321d8e252754745b2d22772aa4e077035c1647a2b4d5005915a15c5d2925f6
 
 build:
   number: 0
@@ -22,8 +22,8 @@ requirements:
   run:
     - python >=3.6
     - docopt >=0.3,<1.0
-    - jsonpickle >=1.2,<2.0
-    - munch >=2.5,<3.0
+    - jsonpickle >=2.2
+    - munch >=2.5,<5.0
     - wrapt >=1.0,<2.0
     - py-cpuinfo >=4.0
     - colorama >=0.4

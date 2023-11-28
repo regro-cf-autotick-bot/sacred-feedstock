@@ -1,11 +1,11 @@
-About sacred
-============
+About sacred-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sacred-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/IDSIA/sacred
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sacred-feedstock/blob/main/LICENSE.txt)
 
 Summary: Facilitates automated and reproducible experimental research
 
@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@n-gao](https://github.com/n-gao/)
 * [@siboehm](https://github.com/siboehm/)
 
